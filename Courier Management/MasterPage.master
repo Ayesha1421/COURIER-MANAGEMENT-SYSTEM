@@ -1,0 +1,138 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title></title>
+    <style type="text/css">
+        .style2
+        {
+            height: 31px;
+        }
+    </style>
+</head>
+<body style="margin:[0][0][0][0]">
+             <form id="form3" runat="server">
+             <table cellpadding  = "0" cellspacing = "0" height = "742" width = "1000" border = "0"> 
+            <tr>
+                <td height = "742" style="width: 198px">
+                <img src ="Design/Parts/images/MainPage2-copy_01.jpg" style="width: 203px; height: 737px">
+                </td>
+                <td height = 204 valign=top style="width: 578px"  >
+               <table>
+                  <tr>
+                  <td valign ="top" style="width: 582px; height: 193px;" >
+                  <img src = "Design/Parts/images/MainPage2-copy_02.jpg" style="width: 592px" />
+                  </td>
+                  
+                  </tr>
+               </table>
+                    <table style="width: 594px">
+                        <tr>
+                            <td align =center width= 99px style="height: 21px" >
+                                <a href ="AboutUS.aspx" style="text-decoration: none;"><span style="font-size: 8pt; font-family: Verdana; color: #4d6064;"><strong>Home</strong></span></a></td>
+                            <td style="height: 21px" align=center width = 99px>
+                            <a href ="FrmBooking.aspx" style="text-decoration: none;"> <span style="font-size: 8pt; font-family: Verdana; color: #4d6064;"><strong>Booking</strong></span></a></td>
+                            <td style="height: 21px" align=center width = 99px>
+                            <a href ="SearchByBooking.aspx" style="text-decoration: none;">  <span style="font-size: 8pt; font-family: Verdana; color: #4d6064;"><strong>Search Booking</strong></span></a>
+                            </td>
+                         
+                            <td style="height: 21px" align=center width = 99px>
+                            <a href ="Addcity.aspx" style="text-decoration: none;"> <span style="font-size: 8pt; font-family: Verdana; color: #4d6064;"><strong>City</strong></span></a>
+                            </td>
+                            <td style="height: 21px" align=center width = 99px>
+                           <a href ="OurOffices.aspx" style="text-decoration: none;">  <span style="font-size: 8pt; font-family: Verdana; color: #4d6064;"><strong>Our Offices</strong></span></a>
+                            </td>
+                                <td style="height: 21px" align=center width = 99px>
+                            <a href ="AboutUS.aspx" style="text-decoration: none;"> <span style="font-size: 8pt; font-family: Verdana; color: #4d6064;"><strong>Contact
+                                us</strong></span></a>
+                            </td>
+                            
+                        </tr>
+                      
+                      
+                    </table>
+                    <table style="width: 591px; height: 255px">
+                        <tr >
+                            <td style="width: 143px; height: 255px;" valign = "top" >
+                                <table style="width: 143px ; height: 255" cellpadding="0" cellspacing ="0">
+                                    <tr>
+                                        <td height= "31" style="background-image: url(Design/Parts/images/TextAreaPart_01.jpg)">
+                         
+                                        </td>
+                                     </tr>
+                                     
+                                    <tr>
+                                        <td height= "35" style="background-image: url(Design/Parts/images/TextAreaPart_02.jpg)">
+                                            &nbsp;&nbsp;
+                                        <a href = "FrmBooking.aspx"style = "text-decoration: none;"><span style="font-size: 8pt; font-family: Verdana; color: #4d6064;"><strong>Booking</strong></span></a>
+                                        </td>
+                                     </tr>
+                                    
+                                    <tr>
+                                        <td height= "33" style="background-image: url(Design/Parts/images/TextAreaPart_03.jpg)">
+                                            &nbsp;&nbsp;
+                                       <a href ="SearchByBooking.aspx" style="text-decoration: none;"><span style="font-size: 8pt; font-family: Verdana; color: #4d6064;"><strong>Search Booking</strong></span></a>
+                                        </td>
+                                     </tr>
+                                    
+                                     <tr>
+                                        <td height= "38" style="background-image: url(Design/Parts/images/TextAreaPart_04.jpg)">
+                                            &nbsp;&nbsp;
+                                       <a href ="Addcity.aspx" style="text-decoration: none;"><span style="font-size: 8pt; font-family: Verdana; color: #4d6064;"><strong>City</strong></span></a>
+                                        </td>
+                                     </tr>
+                                    
+                                     <tr>
+                                        <td height= "39" style="background-image: url(Design/Parts/images/TextAreaPart_05.jpg)">
+                                            &nbsp;&nbsp;
+                                       <a href ="OurOffices.aspx" style="text-decoration: none;"><span style="font-size: 8pt; font-family: Verdana; color: #4d6064;"><strong>Offices</strong></span></a>
+                                        </td>
+                                     </tr>
+                                    
+                                    <%--  <tr style="font-size: 12pt">
+                                        <td style="background-image: url(Design/Parts/images/TextAreaPart_06.jpg)" 
+                                              class="style2">
+                                            &nbsp;&nbsp;
+                                       <a href ="NewUser.aspx" style="text-decoration:inherit;">
+                                       <span style="font-size: 8pt; font-family: Verdana; color: #4d6064;">
+                                       <strong>NewUser</strong></span></a>
+                                        </td>
+                                     </tr>--%>
+                                    
+                                     <tr style="font-size: 12pt">
+                                        <td height= "46" style="background-image: url(Design/Parts/images/TextAreaPart_07.jpg)">
+                                        </td>
+                                     </tr>
+                                </table>
+                            </td>
+                            <td style="width: 448px; height: 249px; font-size: 12pt;" align="left" valign="top">
+                                                      <%--<span style="font-size: 12pt; color: #413526; font-family: Verdana;
+                                    mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman';
+                                    mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">
+                                    <br />
+                                </span>--%>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                             
+                            </td>
+                       </tr>
+                      
+                    </table>
+                </td> 
+                <td width = 196 height = "742">
+                 <img src="Design/Parts/images/MainPage2-copy_03.jpg" style="width: 193px; height: 736px" />
+                </td>
+                    
+              
+            </tr>
+            
+          
+        </table>
+    </form> 
+           
+   
+</body>
+</html>
+
